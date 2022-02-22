@@ -1,0 +1,113 @@
+body{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: skyblue;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    height: 150px;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: bisque;
+    background-color: lightseagreen;
+    background-image: url(Images/backgrounddep.jpg);
+    position: relative;
+}
+.menu{
+    height: 40px;
+    background: yellow;
+}
+
+.menu ul li{
+    list-style: none;
+    line-height: 35px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: black;
+    font-size:larger;
+    text-decoration: none;
+    margin: auto;
+    padding: 0;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+form{
+    text-align: right;
+}
+
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham img{
+    width: 80px;
+    height: 150px;
+    padding: 0px;
+    margin: auto;
+}
+.san-pham.ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: white;
+}
+.san-pham.gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham.gia del{
+    color: gray;
+}
+
+.san-pham:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul a{
+    display: block;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul{
+    list-style: none;
+    background-color: yellow;
+}
+
+.wrapper>footer{
+    border: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}

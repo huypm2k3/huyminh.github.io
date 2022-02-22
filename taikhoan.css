@@ -1,0 +1,53 @@
+.form-group{
+    margin: 10px 20px;
+}
+
+.form-control{
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+    text-align: center;
+    margin: auto;
+
+}
+
+.logo{
+    height: 150px;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: bisque;
+    background-color: lightseagreen;
+    background-image: url(Images/backgrounddep.jpg);
+    position: relative;
+}
+
+.menu{
+    height: 40px;
+    background: yellow;
+}
+
+.menu ul li{
+    list-style: none;
+    line-height: 35px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: black;
+    font-size:larger;
+    text-decoration: none;
+    margin: auto;
+    padding: 0;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+}

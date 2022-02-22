@@ -1,0 +1,52 @@
+.menu>a{
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px
+}
+
+.menu>a:visited{
+    color: green;
+}
+
+.menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo{
+    height: 150px;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: bisque;
+    background-color: lightseagreen;
+    background-image: url(Images/backgrounddep.jpg);
+    position: relative;
+}
+
+.menu{
+    height: 40px;
+    background: yellow;
+}
+
+.menu ul li{
+    list-style: none;
+    line-height: 35px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: black;
+    font-size:larger;
+    text-decoration: none;
+    margin: auto;
+    padding: 0;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
